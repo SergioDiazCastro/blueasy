@@ -339,7 +339,7 @@ footer ul{
         @media (max-width: 480px) {
             html, body{
                 max-width: 100%;
-               
+               overflow-x: hidden;
             }
             header .blue{
                 display: block;
@@ -460,4 +460,196 @@ footer ul{
                 display: flex;
                 font-size: 15px;
             }
+        }   
+        @media (min-width: 481px) and (max-width: 767px){
+            html, body{
+                max-width: 100%;
+                overflow-x: hidden;
+            }
+            header .blue{
+                display: block;
+                text-align: center;
+            }
+            .blue ul {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                font-size: 15px;
+                padding-left: 0px;
+            }
+            .texto{
+                height: auto;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .texto h1{
+                font-size: 25px;
+                width: 80%;
+            }
+            .texto .textoCorto{
+                width: 80%;
+            }
+            .iconos{
+                display: flex;
+                align-items: center;
+                padding-left: 1%;
+                padding-right: 1%;
+                gap: 10px;
+                padding-top: 5%;
+                height: auto;
+            }
+            .contenedor {
+                text-align: -webkit-center;
+            }
+            .port{
+                width: 100%;
+                flex-direction: column;
+            }
+            .port ul{
+                padding-left: 0px;
+            }
+            .imagenes{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 30px;
+                padding-bottom: 50px;
+            }
+            .textVideo{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .text1{
+                font-size: 15px;
+            }
+            .video{
+                text-align: center;
+            }
+            .video img{
+                width: 80%;
+            }
+            .twitter{
+                display: flex;
+                 flex-direction: column;
+             }
+             .textoTwitter{
+                font-size: 15px;
+             }
+             .fondo{
+                display: flex;
+                height: auto;
+                background-repeat:no-repeat ;
+                background-size: cover;
+                background-position: center;
+            }
+            .icono12{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .testimonials{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+             }
+             .textoTesti{
+                font-size: 15px;
+             }
+             .contact{
+                display: flex;
+                flex-direction: column;
+                padding: 8px;
+                gap: 20px;
+             }
+             .contact h2{
+                display: flex;
+                text-align: left;
+                width: 100%;
+             }
+             footer{
+                display: flex;
+                flex-direction: column;
+                height: auto;
+            }
+            footer ul{
+                display: flex;
+                font-size: 15px;
+            }
+        }
+        @media (min-width: 768px) and (max-width: 1024px){
+
+
+
+            .iconos{
+                display: flex;
+                align-items: center;
+                padding-left: 1%;
+                padding-right: 1%;
+                gap: 10px;
+                padding-top: 5%;
+                height: auto;
+            }
+            .contenedor {
+                text-align: -webkit-center;
+            }
+            .port{
+                width: 100%;
+                flex-direction: column;
+            }
+            .port ul{
+                padding-left: 0px;
+            }
+            .imagenes{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px;
+                padding-bottom: 50px;
+            }
+            .textVideo{
+                padding: 2%;
+                gap: 30px;
+            }
+            .text1{
+                width: 60%;
+            }
+            .video{
+                text-align: center;
+            }
+            .video img{
+                width: 100%;
+                margin: auto;
+                padding-top: 0px;
+            }
+            .twitter{
+                display: flex;
+                 flex-direction: column;
+             }
+             .textoTwitter{
+                font-size: 25px;
+             }
+             .fondo{
+                display: flex;
+                height: auto;
+                background-repeat:no-repeat ;
+                background-size: cover;
+                background-position: center;
+            }
+            .testimonials{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+             }
+             .textoTesti{
+                font-size: 25px;
+             }
+             .contact{
+                background-image: url(../images/bg_contact.png);
+                height: 700px;
+                display: grid;
+                grid-template-columns: 10% 1fr 1fr 10%;
+                grid-template-rows: 15% 20% 20% 25% 20%;
+            }
+
         }
